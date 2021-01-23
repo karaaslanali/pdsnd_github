@@ -17,6 +17,7 @@ in the United Statesâ€”Chicago, New York City, and Washington
 #new_york_city.csv
 Explore US Bikeshare Data_project_v2.py
 
+csv files are ignored since big sizes.
 
 ### Credits
 https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
