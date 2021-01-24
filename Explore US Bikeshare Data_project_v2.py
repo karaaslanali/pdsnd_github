@@ -5,6 +5,7 @@ Created on Tue Jan 9 22:52:59 2021
 @author: TCALKARAASLAN
 """
 
+
 import time
 import pandas as pd
 import numpy as np
@@ -35,7 +36,8 @@ def get_filters():
     while True:
         month = input ('Input the  month for which the data to be analyzed\n' +
                        'data is available for below months\n'+
-                      'all,january ,february,march,april,may,june?\n')
+                      'all,january ,february,march,april,may,june?\n').lower()
+					  ## After project review, to handle upper case "JUNE" , modified as month= input("...").lower() 
         if month.lower() in ['all', 'january', 'february', 'march',
                              'april', 'may', 'june']:
             break
