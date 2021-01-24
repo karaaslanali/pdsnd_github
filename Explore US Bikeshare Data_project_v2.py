@@ -4,7 +4,8 @@ Created on Tue Jan 9 22:52:59 2021
 
 @author: TCALKARAASLAN
 """
-
+## this project script is controlled with git and published to 
+## https://github.com/karaaslanali/pdsnd_github/ 
 
 import time
 import pandas as pd
