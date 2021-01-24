@@ -7,6 +7,8 @@ Created on Tue Jan 9 22:52:59 2021
 ## this project script is controlled with git and published to 
 ## https://github.com/karaaslanali/pdsnd_github/ 
 
+## refactoring branch changes are at this file
+
 import time
 import pandas as pd
 import numpy as np
@@ -28,7 +30,8 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input('Input the city that you want to  explore US bike share data.\n ' +
-                     'Data is available for below cities\n' + 'Chicago, New York City, or Washington?\n')
+                     'Data is available for below cities\n' + 'Chicago, New York City, or Washington?\n').lower()
+					 ## city is made lower case during entry
         if city.lower()  in  ('chicago' ,  'new york city', 'washington'):
               
             break
